@@ -1,0 +1,42 @@
+/* Google Font Monsterrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #F6F6F6;
+}
+
+
+/* Navabr  */
+.navbar-brand{
+    font-weight: 600;
+    font-size: 26px;
+    /* color: rgb(32, 190, 173); */
+    color: black;
+}
+.navbar-brand>span{
+    color: rgb(32, 190, 173);
+}
+
+.nav-item{
+    margin: 0px 20px;
+}
+
+.nav-item>*, .nav-link{
+    font-size: 18px;
+    color: rgb(61, 77, 105);
+    font-weight: 500;
+}
+
+.nav-link:hover{
+    color: rgb(32, 190, 173);
+}
+
+.nav-btn{
+    font-size: 18px;
+}
