@@ -13,6 +13,9 @@ body{
 
 
 /* Navabr  */
+.nav-menu{
+    list-style: none;
+}
 .navbar-brand{
     font-weight: 600;
     font-size: 26px;
@@ -24,7 +27,7 @@ body{
 }
 
 .nav-item{
-    margin: 0px 20px;
+    margin: 0px 10px;
 }
 
 .nav-item>*, .nav-link{
@@ -39,4 +42,54 @@ body{
 
 .nav-btn{
     font-size: 18px;
+}
+
+
+
+/* Main Hero Container */
+.main-hero{
+    padding: 3rem 0rem;
+}
+.hero-img-container>img{
+    width: 100%;
+    /* min-width: 600px;
+    min-height: 600px; */
+}
+
+.bdr{
+    border: 2px solid red;
+}
+
+.hero-heading{
+    font-weight: 700;
+    font-size: 60px;
+}
+.hero-heading>span{
+    font-size: 40px;
+}
+
+.hero-moto{
+    font-size: 40px;
+    font-weight: 400;
+}
+.hero-skills{
+    color: salmon;
+
+}
+
+
+/* Section 2 */
+.s2-heading{
+    font-size: 50px;
+    font-weight: 600;
+}
+.mini-heading{
+    font-size: 30px;
+    /* color: salmon   ; */
+    font-weight: 500;
+}
+
+.s2-para{
+    font-size: 30px;
+    margin-bottom: 0px;
 }
