@@ -93,3 +93,10 @@ body{
     font-size: 30px;
     margin-bottom: 0px;
 }
+
+
+.arrow-down{
+    position: absolute;
+    left: 50%;
+    top: 94%;
+}
