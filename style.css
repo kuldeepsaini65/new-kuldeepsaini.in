@@ -7,10 +7,35 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
+/* Media Query  */
+@media only screen and (max-width: 600px) {
+    /* body {
+      background-color: lightblue !important;
+    } */
+    .container{
+        padding: 20px !important;
+    }
+    .bullet-left{
+        width: 100% !important;
+        font-size: 15px !important;
+    }
+    .about-para{
+        font-size: 17px !important;
+        text-align: justify;
+        /* padding: 20px !important; */
+    }
+  }
+  
+
+
 body{
     background-color: #F6F6F6;
 }
 
+.fs-25{
+    font-size: 25px;
+}
 
 /* Navabr  */
 .nav-menu{
@@ -89,14 +114,63 @@ body{
     font-weight: 500;
 }
 
-.s2-para{
-    font-size: 30px;
-    margin-bottom: 0px;
-}
-
 
 .arrow-down{
     position: absolute;
     left: 50%;
     top: 94%;
 }
+
+
+/* 25 Feb  */
+.section-heading{
+    font-size: 50px  ;
+    font-weight: 600;
+}
+
+.about-arrow{
+    font-size: 30px;
+}
+
+.para{
+    font-size: 20px;
+}
+.about-img > img{
+    background-color:rgba(253, 205, 205, 0.837);
+    border-radius: 50%;
+    height: 300px;
+}
+
+.float-up-down {
+    animation: floatUpDown 1.4s ease-in-out infinite alternate;
+}
+
+@keyframes floatUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px); /* Adjust this value to control the floating distance */
+    }
+}
+
+.bullet-container{
+    height: 300px;
+}
+
+.bullet-left{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: rgb(224, 243, 234);
+    padding: 15px;
+    font-weight: 500;
+}
+
+/* .bullet-right{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: rgb(224, 243, 234);
+    padding: 15px;
+    font-weight: 500;
+    right: 0px;
+} */

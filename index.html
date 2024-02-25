@@ -7,8 +7,8 @@
     <title>Kuldeep Saini</title>
 
     <!-- External Css Links -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="./static/css/remixicon.css"> -->
 
     <!-- remix icon -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
@@ -31,7 +31,7 @@
                     <a href="#Home" class="nav-link">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#Home" class="nav-link">About</a>
+                    <a href="#about-section" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
                     <a href="#Home" class="nav-link">Contact</a>
@@ -61,8 +61,10 @@
             </div>
         </div> -->
 
+
         <div class="container">
-            <div class="main-hero d-flex flex-wrap justify-content-between">
+
+            <div class="main-hero d-flex flex-wrap justify-content-between align-items-center ">
                 <div class="hero-head  d-flex flex-column justify-content-center ">
                     <h1 class="hero-heading hero-text">
                         <span>Hey,</span><br> I am Kuldeep Saini
@@ -71,20 +73,46 @@
                         I Have Skills In <span class="hero-skills"></span>
                     </h2>
                 </div>
-                <div class="hero-img">
+                <div class="hero-img float-up-down">
                     <img src="./img/hero-img.png" class="img-fluid" width="460" alt="">
                 </div>
             </div>
+            <!-- <div class="arrow-down mt-0 pt-0" style="font-size: 24px;">
+                <i class="ri-arrow-down-line"></i>
+            </div> -->
         </div>
 
         <div class="container mt-5 py-5 mb-5">
-            <div class="section2">
-                <div class="s2-head">
-                    <h1 class="s2-heading">
+            <div class="about-desc-container">
+                <div class="about-desc-head section-heading">
+                    Something About Me <span class="about-arrow"><i class="ri-corner-right-down-line"></i></span>
+                </div>
+            </div>
+            <div class="section2 row justify-content-between align-items-center mt-5" id="about-section">
+                <div class=" col-md-3  about-img float-up-down">
+                    <!-- <img src="./img/about-img.png" class="img-fluid" alt=""> -->
+                    <img src="./img/about-img.png" class="img-fluid" alt="">
+                </div>
+                <div class="s2-head col-md-8">
+                    <!-- <h1 class="s2-heading">Diploma Holder <span class="mini-heading">with</span> </h1> -->
+                    <p class="about-para mb-0 para text-right p-2"> As a diligent Diploma Holder with invaluable hands-on
+                        experience gained from 6 months of rigorous industrial training and an additional 3 months of
+                        immersive internship, I bring a unique blend of academic knowledge and practical skills to every
+                        project I undertake. My passion for Backend Developer drives me to continuously seek
+                        opportunities for growth and innovation. Through my portfolio, I aim to showcase not only my
+                        technical proficiency but also my dedication to excellence and ongoing learning.</p>
+                    <!-- <p class="s2-para p-0"><i class="ri-add-fill"></i> 3 Months of Internship Experience </p> -->
+                </div>
+
+
+
+                <div class=" p-2 d-flex flex-column justify-content-between mt-3 ">
+                    <!-- <h1 class="s2-heading">
                         Diploma Holder <span class="mini-heading">with</span>
-                    </h1>
-                    <p class="s2-para mb-0"> <i class="ri-add-fill"></i> 6 Months of Industrial Training Experience</p>
-                    <p class="s2-para p-0"><i class="ri-add-fill"></i> 3 Months of Internship Experience </p>
+                    </h1> -->
+                    <p class="bullet-left w-50 fs-25"> <i class="ri-add-fill"></i> 6 Months of Industrial Training
+                        Experience</p>
+                    <p class="bullet-left fs-25  w-50"><i class="ri-add-fill"></i> 3 Months of Internship Experience </p>
                 </div>
             </div>
         </div>
@@ -98,7 +126,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
-        <script src="./script.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
